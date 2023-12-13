@@ -9,6 +9,4 @@ def start_bot():
     bot.polling(none_stop=True)
 
 if __name__=='__main__':
-  bot.polling(none_stop=True, interval=0)
-
 start_bot()
